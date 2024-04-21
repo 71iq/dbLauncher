@@ -1,0 +1,80 @@
+.root {
+    -fx-background-color: #333333; /* Dark background color */
+    -fx-text-fill: #ffffff; /* Text color */
+}
+
+.button {
+    -fx-background-color: #4a4a4a; /* Button background color */
+    -fx-text-fill: #ffffff; /* Button text color */
+    -fx-border-color: #666666;
+    -fx-border-width: 1; /* Button border width */
+    -fx-border-radius: 5; /* Rounded edges for Button */
+}
+.button:hover {
+    -fx-background-color: #5a5a5a;
+    -fx-border-color: #61dafb;
+}
+
+.combo-box {
+    -fx-background-color: #4a4a4a; /* ComboBox background color */
+    -fx-text-fill: #ffffff; /* ComboBox text color */
+    -fx-border-width: 1; /* ComboBox border width */
+    -fx-background-radius: 5; /* Rounded edges for ComboBox */
+}
+.combo-box:hover {
+    -fx-border-color: #61dafb; /* ComboBox border color */
+    -fx-border-radius: 5;
+}
+
+.table-view {
+    -fx-control-inner-background: #222222; /* TableView background color */
+    -fx-text-fill: #ffffff; /* TableView text color */
+    -fx-border-width: 1; /* TableView border width */
+    -fx-background-radius: 5; /* Rounded edges for TableView */
+}
+
+.table-view:hover {
+    -fx-background-color: #2c2c2c;
+}
+
+.table-row-cell {
+    -fx-border-color: #444444; /* Individual cell border color */
+    -fx-border-width: 0 0 1 0; /* Individual cell border width (bottom only) */
+}
+
+.table-view .column-header {
+    -fx-background-color: #555555; /* Column header background color */
+    -fx-border-color: #999999;
+    -fx-background-radius: 5; /* Rounded edges for Column header */
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #464646; /* Dark gray background color for odd rows */
+    -fx-text-fill: white; /* Text color for odd rows */
+}
+
+.table-row-cell:even {
+    -fx-background-color: #333333; /* Slightly lighter background color for even rows */
+    -fx-text-fill: white; /* Text color for even rows */
+}
+
+.table-view .column-header:hover {
+    -fx-background-color: #61dafb;
+}
+
+.table-column {
+    -fx-background-color: #4a4a4a;
+    -fx-text-fill: #ffffff;
+}
+
+.text-field {
+    -fx-background-color: #4a4a4a;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 5;
+}
+
+.text-field:hover {
+    -fx-background-color: #5a5a5a;
+    -fx-border-color: #61dafb;
+    -fx-border-radius: 5;
+}
